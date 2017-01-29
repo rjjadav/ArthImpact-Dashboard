@@ -1,0 +1,97 @@
+.tiles {
+	border-top: 1px solid #ccc;
+	margin-top: 15px;
+	padding-top: 5px;
+	margin-bottom: 0;
+}
+
+.tile {
+	overflow: hidden;
+}
+
+.top_tiles {
+	margin-bottom: 0;
+	.tile {
+		span {}
+		h2 {
+			font-size: 30px;
+			line-height: 30px;
+			margin: 3px 0 7px;
+			font-weight: bold;
+		}
+	}
+}
+
+.dashboard_graph {
+	background: #fff;
+	padding: 7px 10px;
+	.col-md-9, .col-md-3 {
+		padding: 0;
+	}
+	.x_title {
+		padding: 5px 5px 7px;
+		h3 {
+			margin: 0;
+			font-weight: normal;
+		}
+	}
+	p {
+		margin: 0 0 4px;
+	}
+}
+
+.x_panel {
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 17px;
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #E6E9ED;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	opacity: 1;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.x_title {
+	border-bottom: 2px solid #E6E9ED;
+	padding: 1px 5px 6px;
+	margin-bottom: 10px;
+	.filter {
+		width: 40%;
+		float: right;
+	}
+	h2 {
+		margin: 5px 0 6px;
+		float: left;
+		display: block;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		small {
+			margin-left: 10px;
+		}
+	}
+	span {
+		color: #BDBDBD;
+	}
+}
+
+.x_content {
+	padding: 0 5px 6px;
+	position: relative;
+	width: 100%;
+	float: left;
+	clear: both;
+	margin-top: 5px;
+	h4 {
+		font-size: 16px;
+		font-weight: 500;
+	}
+}

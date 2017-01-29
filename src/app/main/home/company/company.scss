@@ -1,0 +1,45 @@
+.tile_count {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  div:first-child .left {
+    border: 0;
+  }
+  .tile_stats_count {
+    border-left: 0px solid #333;
+    padding: 0;
+  }
+}
+
+.tile_stats_count {
+  .left {
+    width: 15%;
+    float: left;
+    height: 65px;
+    border-left: 2px solid #ADB2B5;
+    margin-top: 10px;
+  }
+  .right {
+    padding-left: 10px;
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    span {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .count {
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 600;
+    small {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 600;
+    }
+  }
+}
+
+.count_bottom i {
+  width: 12px;
+}
